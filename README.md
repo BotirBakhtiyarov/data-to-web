@@ -2,7 +2,7 @@
 
 [![Streamlit App](https://img.shields.io/badge/Streamlit-App-orange?logo=streamlit)](https://data-to-web-mspcqyr8pbvrzwpdbx9uhu.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://www.python.org/)
-[![License](https://img.shields.io/github/license/yourusername/data2web)](LICENSE)
+[![License](https://img.shields.io/github/license/BotirBakhtiyarov/data-to-web)](LICENSE)
 [![OpenAI API](https://img.shields.io/badge/DeepSeek-API-green?logo=openai)](https://deepseek.com)
 [![Made with ❤️ in Kunming](https://img.shields.io/badge/Made%20in-Kunming-red)](https://github.com/botirbakhtiyarov)
 
