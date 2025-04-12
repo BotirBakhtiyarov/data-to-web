@@ -155,15 +155,6 @@ if uploaded_file is not None:
         else:
             st.info("Filtrlash uchun kategorik ustunlar mavjud emas.")
 
-    # Tab 1: AI Tahlili (O'zgartirilgan ma'lumotlar uchun)
-    with tab1:
-        st.subheader("O'zgartirilgan Ma'lumotlar uchun AI Tahlili")
-        if st.button("AI Xulosasini Olish"):
-            data_description = st.session_state.filtered_df.describe().to_string()
-            ai_insights = st.write_stream(get_ai_analysis(data_description))
-        else:
-            st.info("Vizualizatsiya yoki filtrlashdan so'ng AI tahlilini olish uchun 'AI Xulosasini Olish' tugmasini bosing.")
-
     # HTML ga eksport qilish
     st.subheader("Natijalarni HTML sifatida Eksport Qilish")
     html_table = st.session_state.filtered_df.to_html(classes="table table-striped", index=False)
