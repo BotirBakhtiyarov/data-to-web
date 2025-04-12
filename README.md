@@ -8,7 +8,7 @@
 
 ## 🚀 What is Data-to-Web?
 
-**Data2Web** is an interactive Streamlit web application that lets users upload their CSV or Excel datasets and:
+**Data-to-Web** is an interactive Streamlit web application that lets users upload their CSV or Excel datasets and:
 
 - 🔍 Automatically analyze the data using AI (powered by DeepSeek)
 - 📈 Generate beautiful interactive visualizations with Plotly
