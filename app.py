@@ -40,7 +40,7 @@ def get_ai_analysis(data_description):
 
 # Streamlit ilovasini sozlash
 st.set_page_config(page_title="Ma'lumotlardan Vebgacha", layout="wide", initial_sidebar_state="expanded")
-st.title("Ma'lumotlardan Vebgacha: Interaktiv Ma'lumot Tahlili Vositas")
+st.title("Ma'lumotlardan Vebgacha: Interaktiv Ma'lumot Tahlili Vositasi")
 st.markdown(
     """
     CSV yoki Excel faylini yuklang va avtomatlashtirilgan tahlil, interaktiv vizualizatsiyalar 
